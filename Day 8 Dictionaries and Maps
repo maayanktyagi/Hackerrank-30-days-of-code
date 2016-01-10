@@ -9,6 +9,7 @@ map<string,int> a;
 map<string,int>::iterator it;
 int number;
 string name;
+string t;
 int n;
 cin>>n;
 
@@ -29,6 +30,11 @@ while(getline(cin,name))
         }
 return 0;
 }
+
+
+
+
+
 
 
 
