@@ -5,7 +5,7 @@
 using namespace std;
 struct Exception : public exception {
     const char* what() const throw() {
-        return "n and p should be non-negative";
+        return ("n and p should be non-negative");
     }  
 };
 
