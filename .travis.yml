@@ -1,0 +1,8 @@
+language : cpp
+
+compiler:
+ -clang
+ -gcc
+ 
+script: 
+ -gcc day0.cpp -o day0.cpp
