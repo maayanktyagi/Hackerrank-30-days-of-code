@@ -6,5 +6,4 @@ compiler:
 script: 
  - mkdir build
  - cd build
- - cmake .. && make
- - ./day0.cpp
+ - make && make test
