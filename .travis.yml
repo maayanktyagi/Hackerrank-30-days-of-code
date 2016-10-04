@@ -1,8 +1,9 @@
 language : cpp
 
 compiler:
- -clang
- -gcc
+ - clang
+ - gcc
  
 script: 
- -gcc day0.cpp -o day0.cpp
+ - gcc day0.cpp -o day
+ - ./day
