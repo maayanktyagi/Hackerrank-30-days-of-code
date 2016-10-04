@@ -1,9 +1,10 @@
 language : cpp
-
 compiler:
  - clang
  - gcc
  
 script: 
- - gcc day0.cpp -o day
- - ./day
+ - mkdir build
+ - cd build
+ - cmake .. && make
+ -/day0.cpp
