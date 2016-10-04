@@ -3,5 +3,7 @@ compiler:
  - clang
  - gcc
  
+build : make
+ 
 script: 
  - ./configure && make && make test
