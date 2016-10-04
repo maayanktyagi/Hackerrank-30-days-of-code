@@ -4,4 +4,4 @@ compiler:
  - gcc
  
 script: 
- - clang++ day0.cpp -std=c++11 -o simple
+ - ./configure && make && make test
