@@ -7,4 +7,6 @@
  - gcc
  
  script: 
+ - cd Hackerrank-30-days-of-code
+ - gcc day0.cpp -o day
  - echo compiled successfully
