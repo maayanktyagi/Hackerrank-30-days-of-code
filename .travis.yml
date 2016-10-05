@@ -8,5 +8,5 @@
  
  script: 
  - ls
- - gcc ./day0.cpp -o day
+ - gcc Day0.cpp -o day
  - echo compiled successfully
